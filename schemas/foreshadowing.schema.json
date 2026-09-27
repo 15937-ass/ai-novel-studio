@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Foreshadowing",
+  "type": "object",
+  "required": ["schema_version", "items"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "status", "description"],
+        "properties": {
+          "id": {"type": "string"},
+          "status": {"enum": ["planned", "seeded", "advanced", "resolved", "abandoned"]},
+          "description": {"type": "string"},
+          "seed_chapter": {"type": ["string", "null"]},
+          "target_chapter": {"type": ["string", "null"]},
+          "notes": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}
