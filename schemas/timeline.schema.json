@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Timeline",
+  "type": "object",
+  "required": ["schema_version", "events"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "current_story_time": {"type": ["string", "null"]},
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "time", "description", "epistemic_status"],
+        "properties": {
+          "id": {"type": "string"},
+          "time": {"type": "string"},
+          "description": {"type": "string"},
+          "chapter": {"type": ["string", "null"]},
+          "epistemic_status": {
+            "enum": ["fact", "character_belief", "rumor", "hypothesis", "hidden_truth", "proposed"]
+          }
+        }
+      }
+    }
+  }
+}
