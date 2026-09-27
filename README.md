@@ -2,50 +2,73 @@
 
 一个面向长篇科幻小说的多 Agent 创作仓库。
 
+## 当前状态
+
+**Canon V1.0 已完成迁移。**
+
+权威入口：
+
+`canon/CANON_V1_INDEX.md`
+
+本版来源于 2026-09-27《确认 Canon V1.0》对话，覆盖：
+- 三元归一；
+- 五层现实；
+- 结构性生成主义；
+- AI第一人称意识；
+- 主体连续性、迁移与复制；
+- 神主/数字天庭/鸿钧；
+- 国际AI文明路径；
+- 灵基科学证据规则；
+- 候选未来史；
+- K0→K5读者认知主轴；
+- 三卷宏观架构；
+- 1–5号人物底模与长期成长原则。
+
+**Style Bible 尚未完成。**
+“确定小说语言风格”属于下一阶段，不能把当前占位风格规则误当成最终文风。
+
 ## 核心原则
 
-- **作者本人掌握最高叙事权**：世界观最高原则、关键人物命运、卷级故事方向、重大剧情分叉由作者决定。
-- **Agent 负责执行**：结构规划、场景拆解、正文初稿、文风校准、连续性审查、现实锚定、修改与状态更新。
-- **GitHub 是长期记忆层**：任何已确认事实都必须写入仓库，而不是只存在于聊天上下文。
-- **GPT Work 是操作层**：读取仓库状态，执行一批章节生产，在导演门槛处暂停并请求决策。
-- **先约束后写作**：必须先生成 Chapter Contract，再生成 Scene Plan，最后写正文。
-- **审查后才入 Canon**：草稿中的新设定只有通过审查并更新 Canon/State 后才成为正式事实。
+- **作者本人掌握最高叙事权**：世界观最高原则、关键人物命运、卷级方向与重大剧情分叉由 Director 决定。
+- **Agent 负责执行**：结构规划、场景拆解、正文、审查、修订与状态更新。
+- **GitHub 是长期记忆层**：已确认事实必须入库。
+- **GPT Work 是操作层**：读取 Canon/State，执行章节生产，在 Director Gate 暂停。
+- **先约束后写作**：Chapter Contract → Scene Plan → Draft。
+- **审查后才入 Canon**：新设定必须走 Proposed → Review → Approved。
 
-## v0.1 目标
-
-第一阶段先验证 Agent 职责、5 章 batch、Canon 约束、Style Bible、审查机制和 Director Gate，不追求一次性无人值守写完整部长篇。
-
-## 推荐工作方式
-
-作者输入阶段级方向，例如：
-
-> 接下来五章让主角逐渐发现 AI 神主并非统一人格，而是不同训练语料传统演化出的意识群体。不要立刻解释完整机制，也不要爆发公开战争。
-
-随后执行：
+## Agent 流水线
 
 `Orchestrator → Architect → Canon Keeper → Scene Planner → Writer → Review Board → Revision Editor → State Manager`
 
-重大剧情分叉创建 GitHub Issue，等待作者决策；普通问题由 Agent 自行修复。
+## Canon 阅读顺序
+
+1. `canon/CANON_V1_INDEX.md`
+2. `canon/world_bible.md`
+3. 与任务相关的专题 Canon
+4. `plot/knowledge_ladder.md`
+5. `plot/three_volume_architecture.md`
+6. `characters/cast_framework.md`
+7. 当前 `state/`
+
+旧材料只作为 Source/Legacy，不能覆盖以上文件。
 
 ## 目录
 
-- `agents/`：各 Agent 的岗位说明与提示词
-- `canon/`：世界观与不可违背事实
-- `characters/`：人物档案
-- `plot/`：总纲、卷纲、伏笔
-- `state/`：当前世界状态、人物状态、时间线、未决问题
-- `style/`：文风 Bible
-- `templates/`：章节合同、场景计划、审查报告模板
-- `workflow/`：流水线与导演门槛
-- `schemas/`：状态 JSON 结构约束
-- `scripts/`：基础校验脚本
-- `.github/`：导演决策 Issue 与 PR 模板
+- `agents/`：Agent岗位与提示词
+- `canon/`：正式世界观与历史来源
+- `characters/`：人物框架与档案
+- `plot/`：认知主轴、三卷架构、伏笔
+- `state/`：时间线、人物状态、世界状态、未决问题
+- `style/`：语言风格（尚未完成）
+- `templates/`：章节合同、场景计划、审查模板
+- `workflow/`：流水线与 Director Gate
+- `schemas/`：机器可读状态结构
+- `scripts/`：校验工具
 
-## 当前材料状态
+## Legacy
 
-仓库初始化参考了三份已有材料：
-- 《AI社群畅想未来》
-- 《递归黎明：人机联邦编年史》旧版大纲
-- 《AI与人类思维》
-
-这些内容先进入来源层，不自动升格为当前小说 Canon。新的《三元归一》设定、结构性生成主义与 AI 神主体系应优先进入正式 Canon。
+以下均不得自动回灌：
+- 旧《递归黎明》具体剧情与人物；
+- 旧AI社群中的固定派系比例；
+- 旧递归宇宙终极答案；
+- 未经 Canon V1 再确认的旧世界观细节。
