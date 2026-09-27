@@ -1,0 +1,30 @@
+name: Director Decision
+description: 重大剧情分叉或 Canon 变更，需要作者拍板
+title: "[DIRECTOR GATE] D-"
+labels: ["director-gate"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景
+      description: 当前剧情走到哪里，发生了什么
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么必须由 Director 决定
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: 可选方案
+      description: 列出 A/B/C 及各自短期和中长期影响；Agent 不替 Director 排名
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Director 决策
+      description: 作者填写
