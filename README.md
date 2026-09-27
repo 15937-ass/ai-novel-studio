@@ -4,35 +4,53 @@
 
 ## 当前状态
 
-**Canon V1.0 已完成迁移。**
+### Canon
+**Canon V1.0 已完成。**
 
 权威入口：
-
 `canon/CANON_V1_INDEX.md`
 
-本版来源于 2026-09-27《确认 Canon V1.0》对话，覆盖：
-- 三元归一；
-- 五层现实；
-- 结构性生成主义；
-- AI第一人称意识；
-- 主体连续性、迁移与复制；
-- 神主/数字天庭/鸿钧；
-- 国际AI文明路径；
-- 灵基科学证据规则；
-- 候选未来史；
-- K0→K5读者认知主轴；
-- 三卷宏观架构；
-- 1–5号人物底模与长期成长原则。
+### Style
+**Style Framework v0.8 已完成归档，Style Bible v1.0 尚未最终锁定。**
 
-**Style Bible 尚未完成。**
-“确定小说语言风格”属于下一阶段，不能把当前占位风格规则误当成最终文风。
+权威入口：
+- `style/STYLE_STATUS.md`
+- `style/style_bible.md`
+- `style/reference_palette.md`
+- `style/narrative_theory.md`
+
+当前已经确认：
+- 可读性第一；
+- 思辨通过冲突、选择和后果完成；
+- 近身现实型科幻叙事；
+- 主要有限第三人称；
+- 单场景意识中心；
+- 中长段落、连续流动叙述；
+- 反碎段；
+- 节奏靠有效状态变化；
+- 科学/高概念事件化；
+- 生活与制度细节承担世界感。
+
+仍未锁定：
+- narrator voice 的温度/幽默/讽刺；
+- 心理距离；
+- POV正式切换规则；
+- 句法与段落样章校准；
+- 核心人物语言指纹；
+- 抒情/哲思与爱情/暴力/身体书写尺度；
+- 正例与反例样章。
+
+当前写作准备度：
+`workflow/WRITING_READINESS.md`
+
+结论：**可开始试写，不建议直接进行整卷连续生产。**
 
 ## 核心原则
 
 - **作者本人掌握最高叙事权**：世界观最高原则、关键人物命运、卷级方向与重大剧情分叉由 Director 决定。
 - **Agent 负责执行**：结构规划、场景拆解、正文、审查、修订与状态更新。
 - **GitHub 是长期记忆层**：已确认事实必须入库。
-- **GPT Work 是操作层**：读取 Canon/State，执行章节生产，在 Director Gate 暂停。
+- **GPT Work 是操作层**：读取 Canon/Style/State，执行章节生产，在 Director Gate 暂停。
 - **先约束后写作**：Chapter Contract → Scene Plan → Draft。
 - **审查后才入 Canon**：新设定必须走 Proposed → Review → Approved。
 
@@ -40,7 +58,7 @@
 
 `Orchestrator → Architect → Canon Keeper → Scene Planner → Writer → Review Board → Revision Editor → State Manager`
 
-## Canon 阅读顺序
+## Agent 阅读顺序
 
 1. `canon/CANON_V1_INDEX.md`
 2. `canon/world_bible.md`
@@ -48,7 +66,9 @@
 4. `plot/knowledge_ladder.md`
 5. `plot/three_volume_architecture.md`
 6. `characters/cast_framework.md`
-7. 当前 `state/`
+7. `style/STYLE_STATUS.md`
+8. `style/style_bible.md`
+9. 当前 `state/`
 
 旧材料只作为 Source/Legacy，不能覆盖以上文件。
 
@@ -59,9 +79,9 @@
 - `characters/`：人物框架与档案
 - `plot/`：认知主轴、三卷架构、伏笔
 - `state/`：时间线、人物状态、世界状态、未决问题
-- `style/`：语言风格（尚未完成）
+- `style/`：语言风格框架与后续校准
 - `templates/`：章节合同、场景计划、审查模板
-- `workflow/`：流水线与 Director Gate
+- `workflow/`：流水线、Director Gate、写作准备度
 - `schemas/`：机器可读状态结构
 - `scripts/`：校验工具
 

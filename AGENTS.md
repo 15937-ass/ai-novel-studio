@@ -12,7 +12,9 @@
 4. `plot/knowledge_ladder.md`
 5. `plot/three_volume_architecture.md`
 6. `characters/cast_framework.md`（若涉及人物）
-7. 当前 `state/`
+7. `style/STYLE_STATUS.md`
+8. `style/style_bible.md`
+9. 当前 `state/`
 
 不得用 `canon/source_notes.md` 或旧材料覆盖 Canon V1。
 
@@ -22,20 +24,29 @@
 2. HARD Canon
 3. FRAMEWORK Canon
 4. 已批准 Master Outline / Volume Outline
-5. 当前 Batch Contract
-6. Chapter Contract
-7. Scene Plan
-8. Writer 自由发挥
-9. PROVISIONAL / Source / Legacy
+5. 已确认 Style Rule
+6. 当前 Batch Contract
+7. Chapter Contract
+8. Scene Plan
+9. Writer 自由发挥
+10. PROVISIONAL / Source / Legacy / PROPOSED_ONLY
 
 低层不得改写高层。
 
 ## 状态语义
 
+### Canon
 - `HARD`：不可擅改。
 - `FRAMEWORK`：可细化，不可改核心关系。
-- `PROVISIONAL`：候选，可调整，不得伪装成确定事实。
-- `OPEN`：作者故意保留，禁止 Agent 自行填坑。
+- `PROVISIONAL`：候选，可调整。
+- `OPEN`：作者故意保留。
+
+### Style
+- `CONFIRMED`：必须执行。
+- `ACCEPTED_FRAMEWORK`：作为当前默认，可通过样章微调。
+- `PROPOSED_ONLY`：不得自动当作最终风格。
+- `REJECTED`：禁止继续使用。
+- `OPEN`：不得由 Writer 擅自决定为永久规则。
 
 ## 所有 Agent 必须遵守
 
@@ -48,7 +59,8 @@
 - 不得自动回收所有伏笔。
 - 不得让所有人物拥有同一种高度理性、完整表达。
 - 默认最多两轮 Revision。
-- Style Bible 未正式完成前，禁止声称某种文风已经锁定。
+- Style Bible v1.0 未完成前，可以试写，但不得把未确认参数固化成全书规则。
+- Writer 必须执行“中长段落为常态、反碎段、节奏靠状态变化”的已确认规则。
 
 ## 冲突处理
 
