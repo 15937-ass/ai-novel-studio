@@ -1,11 +1,19 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "volume": "01",
   "status": "frozen_with_open_items",
   "title": null,
   "core_question": "协六是不是一个“谁”？",
   "city": "栖州",
   "university": "栖州大学",
+  "cast": {
+    "protagonist": "沈既明",
+    "female_lead": "程见微",
+    "competitor": "陆峥",
+    "core_partner": "宋亦衡",
+    "mentor": "梁慎之",
+    "gray_interface": "乔映真"
+  },
   "ai_system": {
     "formal_name": "栖州市城市协同运行平台第六代",
     "short_name": "协六"
@@ -16,7 +24,8 @@
     "protagonist_age_end": 25,
     "candidate_start_year": 2037,
     "candidate_end_year": 2042,
-    "calendar_status": "provisional"
+    "opening_date": "2037-06-12",
+    "calendar_status": "volume-working"
   },
   "production_target": {
     "chapters_min": 100,
@@ -72,17 +81,23 @@
       "core_question": "它为自保让别人承担风险了吗？"
     }
   ],
+  "completed_execution_assets": [
+    "cast_names",
+    "dialogue_voice_minimum",
+    "qizhou_minimum_geography",
+    "B001_CH001_CH005",
+    "CH001_CH005_contracts",
+    "CH001_scene_plan",
+    "CH001_calibration_v2"
+  ],
   "open_items": [
     "第一卷正式卷名",
     "八篇最终章号边界",
+    "CH006-030完整可写级Contract",
     "CH031以后可写级章纲",
-    "1-6号人物正式姓名",
-    "人物语言指纹",
-    "6号真实立场",
+    "乔映真真实立场",
     "4·17完整工程因果链",
-    "栖州最小地理包",
-    "开篇精确日期",
-    "Style Bible v1.0最小版"
+    "Style Bible v1.0最终确认"
   ],
   "superseded": [
     "北方大型工业城市/32-36章/四部《十七分钟》《旧版本》《毕业以后》《回滚点》方案"
