@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "volume": "01",
   "status": "frozen_with_open_items",
   "title": null,
@@ -35,14 +35,19 @@
     "status": "working"
   },
   "style_status": "active_minimum_v1",
-  "current_batch": "B001",
+  "current_batch": "B002",
   "current_batch_status": "drafted_reviewed_waiting_director_finalization",
   "draft_versions": {
     "CH001": "v4",
     "CH002": "v2",
     "CH003": "v1",
     "CH004": "v2",
-    "CH005": "v1"
+    "CH005": "v1",
+    "CH006": "v2",
+    "CH007": "v1",
+    "CH008": "v1",
+    "CH009": "v1",
+    "CH010": "v1"
   },
   "knowledge_progression": [
     "K0_system",
@@ -96,20 +101,22 @@
     "dialogue_voice_minimum",
     "qizhou_minimum_geography",
     "B001_CH001_CH005",
-    "CH001_CH005_contracts",
-    "CH001_CH005_scene_plans",
-    "CH001_v4",
-    "CH002_v2",
-    "CH003_v1",
-    "CH004_v2",
-    "CH005_v1",
     "B001_review",
-    "style_minimum_v1"
+    "style_minimum_v1",
+    "B002_CH006_CH010",
+    "CH006_CH010_contracts",
+    "CH006_CH010_scene_plans",
+    "CH006_v2",
+    "CH007_v1",
+    "CH008_v1",
+    "CH009_v1",
+    "CH010_v1",
+    "B002_review"
   ],
   "open_items": [
     "第一卷正式卷名",
-    "八篇最终章号边界",
-    "CH006-030完整可写级Contract",
+    "第一至第三篇最终章号边界",
+    "CH011-030完整可写级Contract",
     "CH031以后可写级章纲",
     "乔映真真实立场",
     "4·17完整工程因果链"
