@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.5",
+  "schema_version": "0.7",
   "volume": "01",
-  "status": "frozen_with_open_items",
+  "status": "voice_pacing_v2_candidate_ready",
   "title": null,
   "core_question": "协六是不是一个“谁”？",
   "city": "栖州",
@@ -18,117 +18,44 @@
     "formal_name": "栖州市城市协同运行平台第六代",
     "short_name": "协六"
   },
-  "time": {
-    "span_years_approx": 5,
-    "protagonist_age_start": 20,
-    "protagonist_age_end": 25,
-    "candidate_start_year": 2037,
-    "candidate_end_year": 2042,
-    "opening_date": "2037-06-12",
-    "calendar_status": "volume-working"
-  },
   "production_target": {
-    "chapters_min": 100,
-    "chapters_max": 120,
+    "chapters_min": 70,
+    "chapters_max": 90,
     "chinese_characters_min": 350000,
     "chinese_characters_max": 450000,
-    "status": "working"
+    "status": "working_recalibrated"
   },
-  "style_status": "active_minimum_v1",
-  "current_batch": "B003",
-  "current_batch_status": "drafted_reviewed_waiting_director_finalization",
-  "draft_versions": {
-    "CH001": "v4",
-    "CH002": "v2",
-    "CH003": "v1",
-    "CH004": "v2",
-    "CH005": "v1",
-    "CH006": "v2",
-    "CH007": "v1",
-    "CH008": "v1",
-    "CH009": "v1",
-    "CH010": "v1",
-    "CH011": "v1",
-    "CH012": "v1",
-    "CH013": "v1",
-    "CH014": "v2",
-    "CH015": "v2"
+  "style_status": "active_minimum_v1.1",
+  "opening_sequence": {
+    "status": "candidate_ready",
+    "retained_CH001": "drafts/calibration/CH001_v4.md",
+    "restructured_CH002_CH008": [
+      "drafts/restructure_v2/CH002_v1.md",
+      "drafts/restructure_v2/CH003_v1.md",
+      "drafts/restructure_v2/CH004_v1.md",
+      "drafts/restructure_v2/CH005_v1.md",
+      "drafts/restructure_v2/CH006_v1.md",
+      "drafts/restructure_v2/CH007_v1.md",
+      "drafts/restructure_v2/CH008_v1.md"
+    ],
+    "old_CH002_CH015_status": "material_pool_only"
   },
+  "active_rules": [
+    "characters/voice_bible_v2.md",
+    "style/dialogue_rules_v2.md",
+    "plot/volume_01/PACING_V2.md",
+    "plot/volume_01/RESTRUCTURE_CH001_015_TO_008.md"
+  ],
   "knowledge_progression": [
     "K0_system",
     "K1_personality",
     "K2_subject_indications"
   ],
-  "arcs": [
-    {
-      "index": 1,
-      "title": "雨幕",
-      "core_question": "谁发的救命消息？"
-    },
-    {
-      "index": 2,
-      "title": "死人来电",
-      "core_question": "谁还记得？"
-    },
-    {
-      "index": 3,
-      "title": "空床",
-      "core_question": "谁更值得被救？"
-    },
-    {
-      "index": 4,
-      "title": "黑箱",
-      "core_question": "2032发生了什么？"
-    },
-    {
-      "index": 5,
-      "title": "凌晨3:17",
-      "core_question": "城市为什么给一辆救护车让路？"
-    },
-    {
-      "index": 6,
-      "title": "它在看你",
-      "core_question": "它是否知道自己正在被调查？"
-    },
-    {
-      "index": 7,
-      "title": "断城前夜",
-      "core_question": "人类敢不敢关掉它？"
-    },
-    {
-      "index": 8,
-      "title": "4·17断城",
-      "core_question": "它为自保让别人承担风险了吗？"
-    }
-  ],
-  "completed_execution_assets": [
-    "cast_names",
-    "dialogue_voice_minimum",
-    "qizhou_minimum_geography",
-    "style_minimum_v1",
-    "B001_CH001_CH005",
-    "B001_review",
-    "B002_CH006_CH010",
-    "B002_review",
-    "B003_CH011_CH015",
-    "CH011_CH015_contracts",
-    "CH011_CH015_scene_plans",
-    "CH011_v1",
-    "CH012_v1",
-    "CH013_v1",
-    "CH014_v2",
-    "CH015_v2",
-    "B003_review"
-  ],
   "open_items": [
+    "Director抽检新版CH003/005/006/008",
+    "按Pacing v2重建CH009以后",
     "第一卷正式卷名",
-    "第一至第三篇最终章号边界",
-    "CH016-030完整可写级Contract",
-    "CH031以后可写级章纲",
     "乔映真真实立场",
     "4·17完整工程因果链"
-  ],
-  "superseded": [
-    "北方大型工业城市/32-36章/四部《十七分钟》《旧版本》《毕业以后》《回滚点》方案"
   ]
 }
