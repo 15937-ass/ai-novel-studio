@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.6",
+  "schema_version": "0.7",
   "volume": "01",
-  "status": "voice_pacing_restructure",
+  "status": "voice_pacing_v2_candidate_ready",
   "title": null,
   "core_question": "协六是不是一个“谁”？",
   "city": "栖州",
@@ -18,12 +18,6 @@
     "formal_name": "栖州市城市协同运行平台第六代",
     "short_name": "协六"
   },
-  "time": {
-    "candidate_start_year": 2037,
-    "candidate_end_year": 2042,
-    "opening_date": "2037-06-12",
-    "calendar_status": "volume-working"
-  },
   "production_target": {
     "chapters_min": 70,
     "chapters_max": 90,
@@ -32,26 +26,20 @@
     "status": "working_recalibrated"
   },
   "style_status": "active_minimum_v1.1",
-  "current_phase": "compress_CH001_015_to_008",
-  "retained_draft": {
-    "CH001": "drafts/calibration/CH001_v4.md"
+  "opening_sequence": {
+    "status": "candidate_ready",
+    "retained_CH001": "drafts/calibration/CH001_v4.md",
+    "restructured_CH002_CH008": [
+      "drafts/restructure_v2/CH002_v1.md",
+      "drafts/restructure_v2/CH003_v1.md",
+      "drafts/restructure_v2/CH004_v1.md",
+      "drafts/restructure_v2/CH005_v1.md",
+      "drafts/restructure_v2/CH006_v1.md",
+      "drafts/restructure_v2/CH007_v1.md",
+      "drafts/restructure_v2/CH008_v1.md"
+    ],
+    "old_CH002_CH015_status": "material_pool_only"
   },
-  "restructure_material": [
-    "old_CH002_v2",
-    "old_CH003_v1",
-    "old_CH004_v2",
-    "old_CH005_v1",
-    "old_CH006_v2",
-    "old_CH007_v1",
-    "old_CH008_v1",
-    "old_CH009_v1",
-    "old_CH010_v1",
-    "old_CH011_v1",
-    "old_CH012_v1",
-    "old_CH013_v1",
-    "old_CH014_v2",
-    "old_CH015_v2"
-  ],
   "active_rules": [
     "characters/voice_bible_v2.md",
     "style/dialogue_rules_v2.md",
@@ -64,10 +52,9 @@
     "K2_subject_indications"
   ],
   "open_items": [
-    "重写新CH002-008",
+    "Director抽检新版CH003/005/006/008",
+    "按Pacing v2重建CH009以后",
     "第一卷正式卷名",
-    "第一至第三篇最终章号边界",
-    "后续章纲按Pacing v2重建",
     "乔映真真实立场",
     "4·17完整工程因果链"
   ]
