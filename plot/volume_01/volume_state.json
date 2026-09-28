@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "volume": "01",
   "status": "frozen_with_open_items",
   "title": null,
@@ -35,7 +35,7 @@
     "status": "working"
   },
   "style_status": "active_minimum_v1",
-  "current_batch": "B002",
+  "current_batch": "B003",
   "current_batch_status": "drafted_reviewed_waiting_director_finalization",
   "draft_versions": {
     "CH001": "v4",
@@ -47,7 +47,12 @@
     "CH007": "v1",
     "CH008": "v1",
     "CH009": "v1",
-    "CH010": "v1"
+    "CH010": "v1",
+    "CH011": "v1",
+    "CH012": "v1",
+    "CH013": "v1",
+    "CH014": "v2",
+    "CH015": "v2"
   },
   "knowledge_progression": [
     "K0_system",
@@ -100,23 +105,25 @@
     "cast_names",
     "dialogue_voice_minimum",
     "qizhou_minimum_geography",
+    "style_minimum_v1",
     "B001_CH001_CH005",
     "B001_review",
-    "style_minimum_v1",
     "B002_CH006_CH010",
-    "CH006_CH010_contracts",
-    "CH006_CH010_scene_plans",
-    "CH006_v2",
-    "CH007_v1",
-    "CH008_v1",
-    "CH009_v1",
-    "CH010_v1",
-    "B002_review"
+    "B002_review",
+    "B003_CH011_CH015",
+    "CH011_CH015_contracts",
+    "CH011_CH015_scene_plans",
+    "CH011_v1",
+    "CH012_v1",
+    "CH013_v1",
+    "CH014_v2",
+    "CH015_v2",
+    "B003_review"
   ],
   "open_items": [
     "第一卷正式卷名",
     "第一至第三篇最终章号边界",
-    "CH011-030完整可写级Contract",
+    "CH016-030完整可写级Contract",
     "CH031以后可写级章纲",
     "乔映真真实立场",
     "4·17完整工程因果链"
