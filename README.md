@@ -29,18 +29,19 @@
 第一卷 Frozen v1。
 
 ### B001 — CH001–005
-**正文候选已全部生成。**
+正文候选 + 审查完成。
 
-- CH001：`drafts/calibration/CH001_v4.md`
-- CH002：`drafts/volume_01/CH002_v2.md`
-- CH003：`drafts/volume_01/CH003_v1.md`
-- CH004：`drafts/volume_01/CH004_v2.md`
-- CH005：`drafts/volume_01/CH005_v1.md`
+### B002 — CH006–010
+正文候选 + 审查完成。
 
-跨章审查：
-`reviews/B001_CH001_CH005_review.md`
+当前候选正文已推进至：
+**CH010《死人来电》**
+
+故事已经从校园异常推进到：
+> 城市为什么会跨年份反复回访一个已经去世六年的人？
 
 ## 主要人物
+
 - 沈既明
 - 程见微
 - 陆峥
@@ -50,10 +51,9 @@
 
 ## 当前阶段
 
-项目已经进入：
 > **Batch生产 → Review → Director确认 → Final → State写回**
 
 下一批：
-**B002 / CH006–CH010**
+**B003 / CH011–CH015：进入老城区。**
 
 仍不建议无人值守直接生成整卷。
