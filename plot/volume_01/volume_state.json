@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "volume": "01",
   "status": "frozen_with_open_items",
   "title": null,
@@ -33,6 +33,16 @@
     "chinese_characters_min": 350000,
     "chinese_characters_max": 450000,
     "status": "working"
+  },
+  "style_status": "active_minimum_v1",
+  "current_batch": "B001",
+  "current_batch_status": "drafted_reviewed_waiting_director_finalization",
+  "draft_versions": {
+    "CH001": "v4",
+    "CH002": "v2",
+    "CH003": "v1",
+    "CH004": "v2",
+    "CH005": "v1"
   },
   "knowledge_progression": [
     "K0_system",
@@ -87,8 +97,14 @@
     "qizhou_minimum_geography",
     "B001_CH001_CH005",
     "CH001_CH005_contracts",
-    "CH001_scene_plan",
-    "CH001_calibration_v2"
+    "CH001_CH005_scene_plans",
+    "CH001_v4",
+    "CH002_v2",
+    "CH003_v1",
+    "CH004_v2",
+    "CH005_v1",
+    "B001_review",
+    "style_minimum_v1"
   ],
   "open_items": [
     "第一卷正式卷名",
@@ -96,8 +112,7 @@
     "CH006-030完整可写级Contract",
     "CH031以后可写级章纲",
     "乔映真真实立场",
-    "4·17完整工程因果链",
-    "Style Bible v1.0最终确认"
+    "4·17完整工程因果链"
   ],
   "superseded": [
     "北方大型工业城市/32-36章/四部《十七分钟》《旧版本》《毕业以后》《回滚点》方案"
