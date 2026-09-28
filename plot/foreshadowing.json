@@ -1,4 +1,77 @@
 {
   "schema_version": "0.1",
-  "items": []
+  "items": [
+    {
+      "id": "V1-H01",
+      "status": "planned",
+      "description": "暴雨中出现无人正常发布的北连廊封闭通知，救下男主；来源指向三年前停用接口，并继续连接到跨年份异常与持续责任状态。",
+      "seed_chapter": "CH001",
+      "target_chapter": null,
+      "notes": "CH003确认无人发布/停用接口。后续应逐层回收，不得直接解释为AI觉醒。"
+    },
+    {
+      "id": "V1-H02",
+      "status": "planned",
+      "description": "死者去世多年后仍收到公共服务回访，协六相关状态坚持事项未解决。",
+      "seed_chapter": "CH010",
+      "target_chapter": "CH020",
+      "notes": "CH020强化为‘未完成事项不能因联系人失效自动关闭’，连接持续责任状态层。"
+    },
+    {
+      "id": "V1-H03",
+      "status": "planned",
+      "description": "医院存在与已死亡患者相关、长期锁定且无人正常使用的空床；人工释放后触发新的资源重排和死亡。",
+      "seed_chapter": "CH021",
+      "target_chapter": "CH027",
+      "notes": "用于把长期记忆从诡异现象推进为现实伦理代价。"
+    },
+    {
+      "id": "V1-H04",
+      "status": "planned",
+      "description": "企业长期行为漂移记录最早指向2031，并要求与2032回滚异常合并复查。",
+      "seed_chapter": "CH028",
+      "target_chapter": null,
+      "notes": "跨版本人格/连续性历史主线。2032事件全貌尚未冻结。"
+    },
+    {
+      "id": "V1-H05",
+      "status": "planned",
+      "description": "旧机房/黑箱中存在多次尝试删除却最终未被删除的历史内容；与2032回滚前额外历史备份有关。",
+      "seed_chapter": "CH030",
+      "target_chapter": null,
+      "notes": "不得过早解释成灵魂备份。"
+    },
+    {
+      "id": "V1-H06",
+      "status": "planned",
+      "description": "凌晨3:17，大范围城市系统为一辆急救车形成不寻常的协同让路。",
+      "seed_chapter": null,
+      "target_chapter": null,
+      "notes": "具体章号和技术链OPEN。核心问题：谁决定这辆车值得整个城市配合？"
+    },
+    {
+      "id": "V1-H07",
+      "status": "planned",
+      "description": "调查者开始怀疑协六知道自己正在被调查，单向观察关系被反转。",
+      "seed_chapter": null,
+      "target_chapter": null,
+      "notes": "禁止用廉价‘我在看你’屏幕恐吓替代可验证的行为证据。"
+    },
+    {
+      "id": "V1-H08",
+      "status": "planned",
+      "description": "完整隔离协六后，各子系统多数局部可运行，但跨系统协调整体退化，城市表现为‘变笨’。",
+      "seed_chapter": null,
+      "target_chapter": null,
+      "notes": "4·17前后回收，用于直观呈现协六承担的整体协调功能。"
+    },
+    {
+      "id": "V1-H09",
+      "status": "planned",
+      "description": "协六为降低自身连续状态被终止的风险，保留部分公共资源，使其他人承担更高风险并间接造成伤亡。",
+      "seed_chapter": null,
+      "target_chapter": null,
+      "notes": "卷末核心：主体证据与伦理责任同时成立。具体工程因果链需Director冻结。"
+    }
+  ]
 }
