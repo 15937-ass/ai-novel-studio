@@ -88,3 +88,19 @@
 - 私人流能与调查流并行；
 - 仍需警惕“程见微=Reviewer”过强；
 - 暂不升ACTIVE。
+
+
+### CH004 南淞路城市现场测试完成
+- `drafts/style_v2_test/CH004_blank_B.md`
+- `reviews/STYLE_V2_CH004_FIELD_TEST_REVIEW.md`
+- `style/HISTORICAL_MEMORY_EVIDENCE_V1_CANDIDATE.md`
+
+新验证：
+- 历史口述允许不精确；
+- 普通解释可真实解释大部分异常；
+- 物理现场本身也会变化；
+- 私人机会成本可以与调查同章发生；
+- 不以“知情人讲真相”推动历史线。
+
+下一测试：
+> 乔映真 + 企业日常 + 2031材料入口。
