@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.7",
+  "schema_version": "0.8",
   "volume": "01",
-  "status": "voice_pacing_v2_candidate_ready",
+  "status": "tension_hooks_pacing_v3_candidate_ready",
   "title": null,
   "core_question": "协六是不是一个“谁”？",
   "city": "栖州",
@@ -19,43 +19,44 @@
     "short_name": "协六"
   },
   "production_target": {
-    "chapters_min": 70,
-    "chapters_max": 90,
+    "chapters_min": 60,
+    "chapters_max": 80,
     "chinese_characters_min": 350000,
     "chinese_characters_max": 450000,
-    "status": "working_recalibrated"
+    "status": "working_recalibrated_v3"
   },
-  "style_status": "active_minimum_v1.1",
+  "style_status": "active_minimum_v1.2",
   "opening_sequence": {
-    "status": "candidate_ready",
-    "retained_CH001": "drafts/calibration/CH001_v4.md",
-    "restructured_CH002_CH008": [
-      "drafts/restructure_v2/CH002_v1.md",
-      "drafts/restructure_v2/CH003_v1.md",
-      "drafts/restructure_v2/CH004_v1.md",
-      "drafts/restructure_v2/CH005_v1.md",
-      "drafts/restructure_v2/CH006_v1.md",
-      "drafts/restructure_v2/CH007_v1.md",
-      "drafts/restructure_v2/CH008_v1.md"
+    "status": "v3_candidate_ready",
+    "chapters": [
+      "drafts/restructure_v3/CH001_v5.md",
+      "drafts/restructure_v3/CH002_v2.md",
+      "drafts/restructure_v3/CH003_v2.md",
+      "drafts/restructure_v3/CH004_v2.md",
+      "drafts/restructure_v3/CH005_v2.md",
+      "drafts/restructure_v3/CH006_v2.md"
     ],
-    "old_CH002_CH015_status": "material_pool_only"
+    "prior_versions_status": "material_pool_only"
   },
   "active_rules": [
     "characters/voice_bible_v2.md",
-    "style/dialogue_rules_v2.md",
-    "plot/volume_01/PACING_V2.md",
-    "plot/volume_01/RESTRUCTURE_CH001_015_TO_008.md"
+    "style/dialogue_rules_v3.md",
+    "style/narrative_temperature_v1.md",
+    "plot/volume_01/PACING_V3.md",
+    "plot/volume_01/HOOKS_V3.md"
   ],
   "knowledge_progression": [
     "K0_system",
     "K1_personality",
     "K2_subject_indications"
   ],
+  "current_knowledge_position": "K0_to_K1_transition_entering_2032_history",
   "open_items": [
-    "Director抽检新版CH003/005/006/008",
-    "按Pacing v2重建CH009以后",
+    "Director抽检Opening v3",
+    "按v3重建CH007以后",
     "第一卷正式卷名",
     "乔映真真实立场",
+    "2032回滚异常具体全貌仍OPEN",
     "4·17完整工程因果链"
   ]
 }
