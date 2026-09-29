@@ -56,3 +56,24 @@
 ## 关键原则
 
 > 这次先让作品证明架构，再让架构成为规则。
+
+
+---
+
+## 2026-09-29 连续正文测试
+
+已完成：
+- `drafts/style_v2_test/CH001_blank_B.md`
+- `drafts/style_v2_test/CH002_blank_B.md`
+
+配套：
+- `characters/VOLUME1_PRIVATE_CURRENTS_V1_CANDIDATE.md`
+- `plot/volume_01/ARC01_RAIN_NARRATIVE_MOVEMENTS_V2_CANDIDATE.md`
+- `plot/volume_01/ARC01_SCENE_FIELD_V1_CANDIDATE.md`
+- `reviews/STYLE_V2_CH001_CH002_TEST_REVIEW.md`
+
+当前结论：
+> Style v2通过连续两章基本可行性测试，但仍不升为ACTIVE。
+
+下一测试：
+> 程见微私人流 + CH003。
