@@ -2,45 +2,57 @@
 
 > 分支：style-v2-literary-architecture
 >
-> 状态：**CANDIDATE / NOT ACTIVE**
->
-> 原因：Director认为v3/v8方向逐渐出现“为了证明不像AI而不像人”的过度设计。
+> 状态：**MASTER CANDIDATE BUILT / NOT ACTIVE**
 
-## 当前动作
+## 已完成的文本研究
 
-暂不继续修改CH001正文。
-暂不继续压缩章数。
-暂不新增“反AI配额”。
+基于项目中提供的全文，已完成：
+- 《龙族》开篇与人物私域机制
+- 《三线轮回》引子/第一章的注意力、误读链与危险视角
+- 《古董局中局》第一章的专业知识社会化
+- 《三体》科学边界/台球/倒计时的概念事件化与验证结构
+- 《活着》框架开篇及重大悲剧后的生活延续机制
 
-先建立：
-- 经典文本机制研究；
-- Prose Architecture v2；
-- Narrative Architecture v2。
+详见：
+- `style/CLASSIC_CLOSE_READING_V3.md`
 
-## 关键变化
+## 已完成的候选架构
 
-从：
-> 规则控制正文
+- `style/STYLE_ARCHITECTURE_V2_MASTER_CANDIDATE.md`
+- `style/PROSE_MECHANICS_V3_CANDIDATE.md`
+- `style/SCENE_ARCHITECTURE_V2_CANDIDATE.md`
+- `style/POV_VOICE_ARCHITECTURE_V1_CANDIDATE.md`
+- `plot/volume_01/NARRATIVE_ARCHITECTURE_V2_CANDIDATE.md`
+- `plot/volume_01/STYLE_APPLICATION_MAP_V1_CANDIDATE.md`
 
-改为：
-> 叙事机制指导正文
+## 当前明确降级的旧思路
 
-从：
-> 每句话都要有效
+以下规则在本分支被视为SUPERSEDED CANDIDATE：
+- 普通对白最多2轮
+- 每章2–3个硬推进
+- 每两章A级钩子
+- 危险强制切冷模式
+- 主动插入无效细节
+- 先锁6/8章再切剧情
 
-改为：
-> 每段必须属于人物正在经历的生活，但不必都服务主线
+它们保留为历史实验，不作为新Writer执行规则。
 
-从：
-> 每章必须大钩子
+## 下一阶段
 
-改为：
-> 每章必须完成一个真实叙事运动，续读动力可以来自谜团、人物、关系、任务或情绪
+不再继续修v5-v8。
 
-## 待Director确认后
+下一次正文测试应：
+1. 从空白页重写CH001；
+2. 不继承“漂鞋”或任何旧场景的义务；
+3. 只继承Canon、人物与新Style Architecture；
+4. 连写CH001+CH002；
+5. 两章一起评估：
+   - 叙述声音是否自然；
+   - 私人流能否持续；
+   - 主线是否自然进入；
+   - 人物是否会在第二章继续像同一个人；
+6. 通过后再考虑替换main Style Bible。
 
-再做：
-1. CH001全新重写，不沿用v5-v8逐句修；
-2. CH002；
-3. 连续两章一起看，判断风格能否自然持续；
-4. 再更新main Style Bible。
+## 关键原则
+
+> 这次先让作品证明架构，再让架构成为规则。
