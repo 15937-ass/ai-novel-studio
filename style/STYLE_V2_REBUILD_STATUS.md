@@ -104,3 +104,18 @@
 
 下一测试：
 > 乔映真 + 企业日常 + 2031材料入口。
+
+
+### CH005 乔映真 / 企业机构测试完成
+- `drafts/style_v2_test/CH005_blank_B.md`
+- `reviews/STYLE_V2_CH005_INSTITUTION_TEST_REVIEW.md`
+- `style/INSTITUTIONAL_REALITY_V1_CANDIDATE.md`
+
+验证：
+- 乔映真可以作为真实实习生进入，而非“神秘资料接口”；
+- 机构历史通过项目、权限和迁移存在；
+- “长期行为漂移”第一次出现仍可完全解释为普通质量术语；
+- 2031/2032进入但未越过Canon认知边界。
+
+下一阶段建议：
+> 从学生调查暂时切出，进入“死人来电”现实Case，检验普通市民生活。
