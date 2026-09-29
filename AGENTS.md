@@ -8,7 +8,7 @@
 
 1. `canon/CANON_V1_INDEX.md`
 2. `canon/world_bible.md`
-3. 与当前任务相关的专题 Canon
+3. 相关专题 Canon
 4. `plot/knowledge_ladder.md`
 5. `plot/three_volume_architecture.md`
 6. `characters/cast_framework.md`
@@ -23,45 +23,41 @@
 12. `plot/volume_01/eight_arc_outline.md`
 13. `characters/volume1_cast.md`
 14. `characters/voice_bible_v2.md`
-15. `style/dialogue_rules_v2.md`
-16. `plot/volume_01/PACING_V2.md`
-17. `plot/volume_01/RESTRUCTURE_CH001_015_TO_008.md`
-18. `canon/qizhou.md`
-19. `canon/qizhou_minimum_geography.md`
-20. `canon/xieliu.md`
-21. `plot/volume_01/hooks_and_reveals.md`
-22. `plot/volume_01/OPEN_ISSUES.md`
-
-若写具体章节，还必须读取：
-- 对应Batch Contract
-- 对应Chapter Contract
-- 对应Scene Plan
-- 最近章节状态与伏笔账本
+15. `style/dialogue_rules_v3.md`
+16. `style/narrative_temperature_v1.md`
+17. `plot/volume_01/PACING_V3.md`
+18. `plot/volume_01/HOOKS_V3.md`
+19. `canon/qizhou.md`
+20. `canon/qizhou_minimum_geography.md`
+21. `canon/xieliu.md`
+22. `plot/volume_01/hooks_and_reveals.md`
+23. `plot/volume_01/OPEN_ISSUES.md`
 
 ## 禁止覆盖
 
-不得用：
-- `canon/source_notes.md`
-- 旧《递归黎明》
-- 旧“北方工业城/35章《回滚点》”第一卷方案
-- 已被v2结构压缩淘汰的旧CH002–015章序
+不得使用旧：
+- CH002–015原章序；
+- v2八章开篇结构；
+- dialogue_rules_v2；
+- PACING_V2；
+- 旧《递归黎明》；
+- 北方工业城旧方案
 
-覆盖当前 Canon V1 或 Volume 1 Frozen v1。
+覆盖当前v3执行规则。
 
 ## 权限层级
 
 1. Director
 2. HARD Canon
 3. FRAMEWORK Canon
-4. Volume-specific FROZEN
-5. 已批准Master/Volume Outline
-6. 已确认Style Rule
-7. Pacing / Voice Active Rule
-8. Batch Contract
-9. Chapter Contract
-10. Scene Plan
-11. Writer自由发挥
-12. WORKING / PROVISIONAL / Source / Legacy
+4. Volume FROZEN
+5. Master/Volume Outline
+6. Active Style/Voice/Temperature/Pacing/Hook Rule
+7. Batch Contract
+8. Chapter Contract
+9. Scene Plan
+10. Writer自由发挥
+11. Source / Legacy / Superseded
 
 ## 第一卷人物姓名
 
@@ -75,43 +71,30 @@ FROZEN：
 
 ## 第一卷硬规则
 
-- 不得提前解释灵基层、数字天庭全貌或确认协六“拥有灵魂”。
-- 专业机制必须后台化。
-- 不得让所有人物拥有同一种轻松/聪明表达。
-- 遮名测试失败必须重写人物对话。
-- 正常讨论禁止5轮以上短问短答。
-- 每章必须至少一个硬推进 + 一个软推进。
-- 连续两章不得只是继续查同一种线索。
+- 不提前确认协六主体性/灵魂。
+- 技术后台化。
+- 人物必须遮名可辨。
+- 普通场景连续独立短对白最多2轮。
+- 信息核对优先叙述化。
+- 真实危险出现后必须切冷模式。
+- 冷模式禁止幽默泄压。
+- 开篇前20章每章默认2–3个硬推进。
+- 每2章至少一个A级钩子。
+- 章尾不能只留“继续查”或纯疑问。
+- 一章若仅再次验证上章高度可信内容，合并。
 - 中长段落为常态，反碎段。
-- 节奏靠状态变化，不靠回车。
 - 默认最多两轮Revision。
 
-## 章节审查新增必问
+## 章节审查必问
 
-1. 这章如果删掉，主线是否几乎不受影响？若是，合并或删除。
-2. 这章结尾的问题和开头的问题是否发生性质变化？若没有，推进不足。
-3. 把姓名遮掉，人物能否区分？
-4. 对话是否出现采访式乒乓？
-5. 是否把一个本可在同章完成的调查步骤拆到下一章？
+1. 这章删掉后，主线是否几乎不变？
+2. 开头的问题到结尾是否发生性质变化？
+3. 本章是否至少2个硬推进？
+4. 钩子是否改变现实事实，而非只提新问题？
+5. 人物遮名是否可辨？
+6. 页面是否像聊天记录？
+7. 危险场景有没有仍然在开玩笑？
+8. 是否有一个本可同章完成的步骤被拖到下一章？
 
-## 冲突处理
-
-1. 局部修复；
-2. 非核心后果写Review；
-3. 触及HARD Canon、Volume FROZEN、人物命运、卷级高潮、核心谜底或主题时创建Director Gate；
-4. 未获决定不得跨过。
-
-## 每批完成标准
-
-更新：
-- timeline
-- character_state
-- world_state
-- foreshadowing
-- unresolved_questions
-- batch summary
-
-第一卷还要同步：
-- hooks_and_reveals
-- 已使用地理事实
-- 协六证据等级（K0/K1/K2）
+任何3项失败：
+> 重构章节，不做局部润色。
